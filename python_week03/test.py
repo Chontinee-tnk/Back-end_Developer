@@ -1,2 +1,5 @@
-for i in range(10):
-    print(i)
+a = int(input("สูตรคูณแม่ "))
+for i in range(1,25):
+    print(f'{a} x {i} ={a*i}')
+
+
