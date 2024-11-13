@@ -4,14 +4,12 @@ def ex(a,b):
         if i %3 != 0:
             result.append(i)
     return result
-            
-    
-def er(a,b,c):
-    while True:
-        if(a > 0) :
-            b +=a
-        elif(a<0):
-            c+=a
-        elif(a==0):
-            break
-        return (b,c)
+def sum(nums,sum1,sum2):
+  while True:
+    if nums > 0:
+        sum1 += nums
+    elif nums < 0:
+        sum2 += nums
+    else:
+        break
+    return sum1, sum2
